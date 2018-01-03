@@ -1,0 +1,96 @@
+[21.531820297] 2018-01-03 11:07:39,535 - INFO - launcher: Starting sanity checks
+[22.056818008] 2018-01-03 11:07:39,535 - INFO - launcher: Checking for Python 3.5+
+[22.533893585] 2018-01-03 11:07:39,536 - INFO - launcher: Checking console encoding
+[22.533893585] 2018-01-03 11:07:39,536 - INFO - launcher: Setting console encoding to UTF-8
+[22.533893585] 2018-01-03 11:07:39,536 - INFO - launcher: Ensuring we're in the right environment
+[24.037837982] 2018-01-03 11:07:39,537 - INFO - launcher: Adding local bins/ folder to path
+[24.551153183] 2018-01-03 11:07:39,538 - INFO - launcher: Required checks passed.
+[25.016546249] 2018-01-03 11:07:39,538 - INFO - launcher: Optional checks passed.
+[25.016546249] 2018-01-03 11:07:39,538 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[0.9015829563140869] 2018-01-03 11:07:40,415 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 213 in _setup_logging: Set logging level to INFO
+[0.9015829563140869] 2018-01-03 11:07:40,415 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[0.9025862216949463] 2018-01-03 11:07:40,416 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[0.903463364] launcher-INFO: Connecting
+[3.4840834140777588] 2018-01-03 11:07:42,997 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 1011 in on_ready: Connection established, ready to go.
+[3.4845848083496094] 2018-01-03 11:07:42,998 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 324 in _cache_app_info: Caching app info
+[3.5832455158233643] 2018-01-03 11:07:43,096 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[3.5852513313293457] 2018-01-03 11:07:43,098 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 838 in _scheck_ensure_env: Deleted old audio cache
+[3.5852513313293457] 2018-01-03 11:07:43,098 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 844 in _scheck_server_permissions: Checking server permissions
+[3.5857529640197754] 2018-01-03 11:07:43,099 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[3.5857529640197754] 2018-01-03 11:07:43,099 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 852 in _scheck_configs: Validating config
+[3.5857529640197754] 2018-01-03 11:07:43,099 - DEBUG - musicbot.config | In config.py::MainThread(12224), line 155 in async_validate: Validating options...
+[3.5857529640197754] 2018-01-03 11:07:43,099 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 855 in _scheck_configs: Validating permissions config
+[3.5857529640197754] 2018-01-03 11:07:43,099 - DEBUG - musicbot.permissions | In permissions.py::MainThread(12224), line 59 in async_validate: Validating permissions...
+[3.5862536430358887] 2018-01-03 11:07:43,099 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1022 in on_ready: Connected to Discord!
+[3.5867562294006348] 2018-01-03 11:07:43,100 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1032 in on_ready: Bot:   398141055335268353/chris' music bot 1.0#5119 [BOT]
+[3.5872571468353271] 2018-01-03 11:07:43,100 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1040 in on_ready: Owner: 161984140655198209/rogue one#8320
+
+[3.5877823829650879] 2018-01-03 11:07:43,101 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1043 in on_ready: Server List:
+[3.5882596969604492] 2018-01-03 11:07:43,101 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1044 in <listcomp>:  - Who?
+[3.5887598991394043] 2018-01-03 11:07:43,102 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1044 in <listcomp>:  - Kool Kids
+[3.5892615318298340] 2018-01-03 11:07:43,102 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1088 in on_ready: Not bound to any text channels
+[3.5892615318298340] 2018-01-03 11:07:43,102 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1114 in on_ready: Not autojoining any voice channels
+[3.5897631645202637] 2018-01-03 11:07:43,103 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1118 in on_ready: Options:
+[3.5902650356292725] 2018-01-03 11:07:43,103 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1120 in on_ready:   Command prefix: .
+[3.5907826423645020] 2018-01-03 11:07:43,104 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1121 in on_ready:   Default volume: 100%
+[3.5907826423645020] 2018-01-03 11:07:43,104 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1123 in on_ready:   Skip threshold: 2 votes or 50%
+[3.5912675857543945] 2018-01-03 11:07:43,104 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[3.5912675857543945] 2018-01-03 11:07:43,104 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1125 in on_ready:   Auto-Summon: Enabled
+[3.5917689800262451] 2018-01-03 11:07:43,105 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1126 in on_ready:   Auto-Playlist: Disabled
+[3.5922701358795166] 2018-01-03 11:07:43,105 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1127 in on_ready:   Auto-Pause: Enabled
+[3.5932731628417969] 2018-01-03 11:07:43,106 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1128 in on_ready:   Delete Messages: Enabled
+[3.5937740802764893] 2018-01-03 11:07:43,107 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1130 in on_ready:     Delete Invoking: Disabled
+[3.5942916870117188] 2018-01-03 11:07:43,107 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1131 in on_ready:   Debug Mode: Disabled
+[3.5972883701324463] 2018-01-03 11:07:43,110 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 1132 in on_ready:   Downloaded songs will be deleted
+[3.5997896194458008] 2018-01-03 11:07:43,113 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 252 in _join_startup_channels: Found resumable voice channel Who?/tunes
+[3.6002919673919678] 2018-01-03 11:07:43,113 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 258 in _join_startup_channels: Found owner in "tunes"
+[3.6012940406799316] 2018-01-03 11:07:43,114 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 267 in _join_startup_channels: Attempting to join Who?/tunes
+[3.6017959117889404] 2018-01-03 11:07:43,115 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 437 in get_voice_client: Connection attempt 1 to tunes
+[3.6017959117889404] 2018-01-03 11:07:43,115 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[3.6017959117889404] 2018-01-03 11:07:43,115 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[3.6022999286651611] 2018-01-03 11:07:43,115 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[3.6838300228118896] 2018-01-03 11:07:43,197 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 2552 in on_voice_state_update: Resumed voice connection to Who?/tunes
+[3.6838300228118896] 2018-01-03 11:07:43,197 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 2564 in on_voice_state_update: Voice state update for 398141055335268353/chris' music bot 1.0#5119 on Who?/tunes -> [RESUME, CONNECT]
+[3.6838300228118896] 2018-01-03 11:07:43,197 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[3.7233800888061523] 2018-01-03 11:07:43,236 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[4.0543012619018555] 2018-01-03 11:07:43,567 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(12224), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[4.0548028945922852] 2018-01-03 11:07:43,568 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 463 in get_voice_client: Connected in 0.5s
+[4.0548028945922852] 2018-01-03 11:07:43,568 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 464 in get_voice_client: Connected to Who?/tunes
+[4.0553984642028809] 2018-01-03 11:07:43,568 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 805 in deserialize_queue: Deserializing queue for 160037554442338304
+[4.1501760482788086] 2018-01-03 11:07:43,663 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 555 in get_player: Created player via deserialization for server 160037554442338304 with 1 entries
+[4.1501760482788086] 2018-01-03 11:07:43,663 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 283 in _join_startup_channels: Joined Who?/tunes
+[4.1506538391113281] 2018-01-03 11:07:43,664 - VOICEDEBUG - musicbot.player | In player.py::MainThread(12224), line 311 in websocket_check: Starting websocket check loop for Who?
+[4.1511547565460205] 2018-01-03 11:07:43,664 - FFMPEG - musicbot.player | In player.py::MainThread(12224), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Vi2XaiKhgiU-Lil_Uzi_Vert_-_The_Way_Life_Goes_Official_Visualizer.webm
+[4.1546654701232910] 2018-01-03 11:07:43,668 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[4.1702065467834473] 2018-01-03 11:07:43,683 - FFMPEG - musicbot.player | In player.py::Thread-3 stderr reader(9796), line 409 in filter_stderr: Data from ffmpeg: b'audio_cache\\youtube-Vi2XaiKhgiU-Lil_Uzi_Vert_-_The_Way_Life_Goes_Official_Visualizer.webm: No such file or directory\r\n'
+[4.1732132434844971] 2018-01-03 11:07:43,686 - DEBUG - musicbot.player | In player.py::MainThread(12224), line 197 in _playback_finished: Deleting file: audio_cache\youtube-Vi2XaiKhgiU-Lil_Uzi_Vert_-_The_Way_Life_Goes_Official_Visualizer.webm
+[4.1737163066864014] 2018-01-03 11:07:43,687 - ERROR - musicbot.player | In player.py::MainThread(12224), line 227 in _delete_file: Error trying to delete audio_cache\youtube-Vi2XaiKhgiU-Lil_Uzi_Vert_-_The_Way_Life_Goes_Official_Visualizer.webm
+Traceback (most recent call last):
+  File "C:\Users\Christopher\Desktop\MusicBot\musicbot\player.py", line 219, in _delete_file
+    os.unlink(filename)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'audio_cache\\youtube-Vi2XaiKhgiU-Lil_Uzi_Vert_-_The_Way_Life_Goes_Official_Visualizer.webm'
+[4.1752340793609619] 2018-01-03 11:07:43,688 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[22.7751433849334717] 2018-01-03 11:08:02,288 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 189482959760392193/Suck Sum Stiff#9073: .play 1234 how many niggers
+[27.2068920135498047] 2018-01-03 11:08:06,720 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[27.2078950405120850] 2018-01-03 11:08:06,721 - INFO - musicbot.entry | In entry.py::MainThread(12224), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=bye4xL7WhCI
+[29.1077942848205566] 2018-01-03 11:08:08,621 - INFO - musicbot.entry | In entry.py::MainThread(12224), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=bye4xL7WhCI
+[29.2056429386138916] 2018-01-03 11:08:08,719 - FFMPEG - musicbot.player | In player.py::MainThread(12224), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-bye4xL7WhCI-1234_how_many_niggers_are_in_my_store_compilation.m4a
+[29.2086529731750488] 2018-01-03 11:08:08,722 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[43.7878000736236572] 2018-01-03 11:08:23,301 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 161984140655198209/rogue one#8320: .pause
+[46.1227874755859375] 2018-01-03 11:08:25,636 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 161984140655198209/rogue one#8320: .play
+[53.1347939968109131] 2018-01-03 11:08:32,648 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 161984140655198209/rogue one#8320: .resume
+[56.9080293178558350] 2018-01-03 11:08:36,421 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 189482959760392193/Suck Sum Stiff#9073: .pause
+[65.9223320484161377] 2018-01-03 11:08:45,435 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 161984140655198209/rogue one#8320: .resume
+[69.5206601619720459] 2018-01-03 11:08:49,034 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 189482959760392193/Suck Sum Stiff#9073: .play 2 girls 1 cup
+[73.2202107906341553] 2018-01-03 11:08:52,733 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[73.2212138175964355] 2018-01-03 11:08:52,734 - INFO - musicbot.entry | In entry.py::MainThread(12224), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=7FnQrNFyWy8
+[75.3571112155914307] 2018-01-03 11:08:54,870 - INFO - musicbot.entry | In entry.py::MainThread(12224), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=7FnQrNFyWy8
+[80.0746049880981445] 2018-01-03 11:08:59,588 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 189482959760392193/Suck Sum Stiff#9073: .skip
+[80.0851347446441650] 2018-01-03 11:08:59,598 - DEBUG - musicbot.player | In player.py::MainThread(12224), line 197 in _playback_finished: Deleting file: audio_cache\youtube-bye4xL7WhCI-1234_how_many_niggers_are_in_my_store_compilation.m4a
+[80.0856609344482422] 2018-01-03 11:08:59,599 - FFMPEG - musicbot.player | In player.py::MainThread(12224), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-7FnQrNFyWy8-2_Girls_1_Cup_of_ICE.webm
+[80.0896446704864502] 2018-01-03 11:08:59,603 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[80.0906481742858887] 2018-01-03 11:08:59,604 - DEBUG - musicbot.bot | In bot.py::MainThread(12224), line 781 in serialize_queue: Serializing queue for 160037554442338304
+[98.0498509407043457] 2018-01-03 11:09:17,563 - INFO - musicbot.bot | In bot.py::MainThread(12224), line 2395 in on_message: 189482959760392193/Suck Sum Stiff#9073: .pause
